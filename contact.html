@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+   
+</head>
+<body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+          <li><a href="table.html">Table</a></li>
+        </ul>
+
+      </nav>
+    </header>
+    <main>
+        <h2>Contact Me</h2>
+       
+            <form>
+            <label for=" name"> Your Name :
+                <br>
+                <input id="name" type="text" placeholder="Your Name">
+            </label>
+            <label for="email">Your Email :
+                <br>
+                <input id="email" type="email" placeholder="Your Email">
+            </label>
+            <label for="phone">Phone :
+                <br>
+                <input id="phone" type="phone" placeholder="+880">
+            </label>
+            <fieldset>
+                <legend>Contact Reason</legend>
+                <label for="General Inquiry">
+                    <input type="radio" name=" reason" id=" General Inquiry">General Inquiry
+                </label>
+                <label for="Support"> 
+                    <input type="radio" name=" reason" id=" Support">Support
+                </label>
+                <label for="Collaboration">
+                    <input type="radio" name=" reason" id="Collaboration">Collaboration
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>File Upload </legend>
+                <label for="resume">
+                    <input type="checkbox" name="file" id="Resume">Resume
+                </label>
+                <label for="Screenshort">
+                    <input type="checkbox" name="file" id="Screenshort">Screenshort
+                </label>
+                <label for="Attachment">
+                    <input type="checkbox" name="file" id="attachment">Attachment
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Message</legend>
+                <textarea name="" id="" cols="" rows="3"></textarea>
+            </fieldset>
+            <input type="checkbox" id="popup-toggle">
+            <label for=" popup-toggle" class="submit-btn"> SUBMIT</label>
+            <div class="popup">
+                <div class="popup-content"></div>
+                <h3>Are you sure to submit ?</h3>
+                <div class="popup-buttons"> 
+                    <label for="popup-toggle" class="no-btn"> No</label>
+                    <button type="submit" class="yes-btn">Yes
+
+                    </button>
+                </div>
+
+            </div>
+            
+            
+            
+      
+        </form>
+       
+       
+
+    </main>
+    <footer>
+           
+    <div class="footer-container">
+        <div class="footer-left">
+            <p class="underline-text"> Cotact me</p>
+            <p>Email :jarin@gmail.com</p>
+            <p>Phone:018**8***8</p>
+
+        </div>
+        <div class="footer-center">
+            <p class="underline-text" >About me</p>
+            <p>Hi, I'm Anika Humayra Jarin — a web design learner.  
+            I love creating clean and responsive websites.  </p>
+
+        </div>
+        <div class="footer-right">
+            <p class="underline-text" style="padding-right: 60px;">Follow Us</p>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a> 
+        </div>
+
+    </div>
+  </footer>
+    
+</body>
+</html>

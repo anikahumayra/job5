@@ -1,0 +1,23 @@
+nav > ul   {
+    display: flex;
+    
+    
+}
+nav  li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px;
+    
+}
+nav li > a{
+    text-decoration: none;
+    color: blueviolet;
+}
+nav li :hover{
+    background-color: darkred;
+}
+nav{
+    background-color: darkslategray;
+}
+
+

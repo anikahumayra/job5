@@ -1,0 +1,13 @@
+.caption{
+    text-align: center;
+    color: blueviolet;
+    font-size: 20px;
+    border: 5px solid black;
+}
+.caption:hover{
+    background-color: cadetblue;
+}
+table{
+    margin-bottom: 10px;
+    border-color: blueviolet;
+}
